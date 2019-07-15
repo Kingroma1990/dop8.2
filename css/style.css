@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  width: 100%;
+}
+/* DOP1 */
+.dop1 {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.div1 {
+  width: 54%;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.div2 {
+  width: 21%;
+  background-color: brown;
+  padding: 10px;
+}
+.div3 {
+  width: 21%;
+  background-color: yellowgreen;
+  padding: 10px;
+}
+/* DOP2 */
+main {
+    width: 100%;
+}
+.dop2 {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+  /* justify-content: space-between; */
+  margin-top: 50px;
+}
+.sidebar {
+  background-color: tomato;
+  width: 24%; 
+ 
+}
+.content {
+    width: 72%;
+  background-color:  yellowgreen; 
+ 
+}
+
+/* --------------------------Mtdia------------------------------------------------ */
+
+@media (max-width: 768px) {
+    .dop2 {
+        max-width: 94%;
+        padding: 10px;
+        display: block;
+        margin: 10px;
+        
+    }
+    .content {
+        width: 98%;
+        font-size: 25px;
+    }
+    .sidebar {
+        width: 98%;
+        font-size: 25px;
+    }
+}
